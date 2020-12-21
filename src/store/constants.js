@@ -1,0 +1,10 @@
+export const SET_SOMETHIG = 'SET_SOMETHIG';
+export const SET_TYPE = 'SET_TYPE';
+export const SET_JARYO = 'SET_JARYO';
+export const ADD_JARYO = 'ADD_JARYO';
+export const SET_USERINFO = 'SET_USERINFO';
+export const DEL_USERINFO = 'DEL_USERINFO';
+export const DEL_JARYO = 'DEL_JARYO';
+export const SET_RECIP = 'SET_RECIP';
+export const SET_SEARCHINPUT = 'SET_SEARCHINPUT';
+export const SET_RECIP_COMPARISON = 'SET_RECIP_COMPARISON';
