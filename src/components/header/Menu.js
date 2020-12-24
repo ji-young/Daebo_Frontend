@@ -13,11 +13,11 @@ import {delUserInfo} from 'store/actions/index'
         props.history.push('/Login')
     }
         return(
-            <Box  >
+            <Box>
             <Grid  container>
                 <Grid item xs={8} md={10}>
                     <Button component = {Link} to='/Main'>
-                       FoodAll {/* About */}
+                       9 To 5 {/* About */}
                     </Button> 
                 </Grid>
                 <Grid item xs={4} md={2}>

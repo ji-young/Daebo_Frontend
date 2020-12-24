@@ -56,15 +56,15 @@ function SimpleTable(props) {
   console.log(props)
   return (
     <div>
-    <Paper>
-      <Grid container justify="center"  alignItems="center">
+    <Paper> 
+      <Grid container justify="center"  alignItems="center" >
         <Grid item  xs = {10} sm ={10} md ={10}>
           <InputBase 
             value={jaryoinput}
             onChange={handleChange}
             fullWidth = {true}
             className={classes.input}
-            placeholder=" 냉장고 재료를 추가하세요."
+            placeholder="  냉장고 재료를 추가하세요."
           />
         </Grid>
         <Grid item  xs = {2} sm ={2} md ={2}>

@@ -12,9 +12,8 @@ function main (props) {
   console.log(props.mode)
  
     return(   
-      <div > 
+      <div style={{backgroundColor: '#ED6616'}}> 
         <Search type={props.mode.mode} onChange={onChange}></Search>
-        
       </div>
     )
   

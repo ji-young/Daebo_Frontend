@@ -2,7 +2,6 @@ import React , {useState, Fragment} from 'react';
 import { FormControlLabel ,FormControl ,FormLabel ,RadioGroup , Radio ,Box ,Grid  } from '@material-ui/core'
 import Searchref from 'components/search/Search_ref'
 import Searchfood from 'components/search/Search_food'
-import Searchtrip from 'components/search/Search_trip'
 import { connect } from 'react-redux'
 import styles from 'components/search/SearchStyle'
 import { withRouter  } from 'react-router-dom';
@@ -77,7 +76,7 @@ function  Search(props) {
 
             <Grid item  xs = {12} sm ={6} md ={6}>
               {/* eslint-disable-next-line */}
-              {props.type ==='레시피' &&  !searched &&<img className={classes.img2} src='./assets/냉장고.png'></img>}
+              {props.type ==='레시피' &&  !searched &&<img className={classes.img2} src='./assets/main_logo.png'></img>}
               {/* eslint-disable-next-line */}
               {props.type ==='레시피' &&  searched &&<img className={classes.img} src={logo}></img>}
               {/* {props.type ==='레시피' && <Refrigerator></Refrigerator>} */}
@@ -124,16 +123,7 @@ function  Search(props) {
                  <Searchref onChange={handleChange} onClick={handleSearch} value ={searchinpunt}></Searchref>
              )
             }
-            
-            {props.type==='맛집' && (
-                 <Searchfood  onChange={handleChange}  onClick={handleSearch} value ={searchinpunt}></Searchfood>
-             )
-            }
-
-            {props.type==='여행지' && (
-                 <Searchtrip onChange={handleChange}  onClick={handleSearch} value ={searchinpunt}></Searchtrip>
-             )
-            } 
+             
             </Grid>
             <br/>
             {/* <Chatbot></Chatbot> */}

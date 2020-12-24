@@ -41,7 +41,7 @@ function  Search(props) {
         <Box padding={1}>
         <Grid item  xs = {12} sm ={12} md ={12}>
          <Refrigerator ></Refrigerator>
-       </Grid>
+        </Grid>
        </Box>
         <Paper>
          <Grid container justify="center"  alignItems="center">
@@ -56,7 +56,6 @@ function  Search(props) {
               />
             </Grid>
             <Grid item  xs = {2} sm ={2} md ={2}>
-            
             <IconButton className={classes.iconButton} aria-label="search">
               <SearchIcon onClick={props.onClick} />
             </IconButton>
