@@ -91,13 +91,10 @@ WSGI_APPLICATION = 'bigdageeta.wsgi.application'
 DATABASES = {
         'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'bigdgeeta',
+        'NAME': 'daebo',Í
         'USER': 'root',
-        'PASSWORD': 'bigdata1234@',
-        'HOST': 'localhost',
-        'USER': 'user1',
-        'PASSWORD': 'user1',
-        'HOST': '52.79.57.86',
+        'PASSWORD': 'root',
+        'HOST': '34.64.241.246',
         'PORT': '3306',
         'OPTIONS': {
             'init_command': 'SET sql_mode="STRICT_TRANS_TABLES"'
