@@ -9,7 +9,7 @@
     "axios": "^0.19.2",
     "chart.js": "^2.9.3",
     "cra-template": "1.0.3",
-    "create-react-class": "^15.6.3",
+    "create-react-class": "^15.7.0",
     "cross-env": "^7.0.2",
     "material-table": "^1.57.2",
     "nginx": "0.0.0",
