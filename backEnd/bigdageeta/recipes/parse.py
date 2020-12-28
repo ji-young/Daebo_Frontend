@@ -5,8 +5,8 @@ import shutil
 import datetime
 import pymysql
 
-DATA_FILE = os.path.join("/ssafy/bigdaheetasub3/s02p23a309/BackEnd/bigdageeta/recipes/data", "recipes_original.json")
-DUMP_FILE = os.path.join("/ssafy/bigdaheetasub3/s02p23a309/BackEnd/bigdageeta/recipes/data", "dump.pkl")
+DATA_FILE = os.path.join("/Users/Daebo/Desktop/BackEnd/projects/bigdaheeta/BackEnd/bigdageeta/recipes/data", "recipes_original.json")
+DUMP_FILE = os.path.join("/Users/Daebo/Desktop/BackEnd/projects/bigdaheeta/BackEnd/bigdageeta/recipes/data", "dump.pkl")
 
 
 #mysql 접근

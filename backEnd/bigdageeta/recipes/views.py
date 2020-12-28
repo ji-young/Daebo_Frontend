@@ -50,7 +50,7 @@ def regScore1(request):
             data1 = parse.fetch_data()
             parse.dump_dataframes(data1)
             return Response(serializer.data)
-        return Response(serializer.errors)
+        return x(serializer.errors)
 
 
 @api_view(['GET', 'PUT'])

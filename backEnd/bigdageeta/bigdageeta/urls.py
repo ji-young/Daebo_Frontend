@@ -43,3 +43,6 @@ urlpatterns = [
     url(r'^swagger/v1/$', schema_view_v1.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     url(r'^recipe/',include('recipes.urls')),
 ]
+
+
+
