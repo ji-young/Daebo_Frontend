@@ -22,7 +22,6 @@ function  Search(props) {
 
   function getRecipList(tags, jaryo) {
     setloaded(false)
-    console.log('씨발너냐')
     return new Promise(function(resolve){
       var res=  getRecip2(tags,jaryo)
       // resolve(res)

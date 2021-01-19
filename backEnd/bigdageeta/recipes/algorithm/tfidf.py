@@ -12,7 +12,7 @@ from sklearn.metrics.pairwise import linear_kernel
 
 
 def contents_based_filtering(item_id, num, tag_data, ingredients):
-    conn = pymysql.connect(host='52.79.57.86', port=3306, user='user1',
+    conn = pymysql.connect(host='34.64.88.80', port=3306, user='user1',
                         passwd='user1', db='bigdageeta', charset='utf8')
     curs=conn.cursor()
     like = "ingredients like \"%"
