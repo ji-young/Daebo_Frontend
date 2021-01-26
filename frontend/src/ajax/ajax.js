@@ -11,7 +11,7 @@ export function ajax1(input) {
 }
 
 export function join(id,name,email,pw) {
-  return   axios.post('http://34.64.88.80/~/rest-auth/registration/', { 
+  return   axios.post('http://34.64.88.80/rest-auth/registration/', { 
             headers: { // 요청 헤더
                         'Content-type': 'application/json'
                      },
@@ -25,7 +25,7 @@ export function join(id,name,email,pw) {
 }
 
 export function login(name,email,pw) {
-  return   axios.post('http://34.64.88.80/~/rest-auth/login/', { 
+  return   axios.post('http://34.64.88.80/rest-auth/login/', { 
             headers: { // 요청 헤더
                      'Content-type': 'application/json'
                      },
