@@ -141,7 +141,7 @@ CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
     'http://localhost:8000',
     'http://34.64.88.80:8000',
-    'http://34.64.88.80
+    'http://34.64.88.80'
 )
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
