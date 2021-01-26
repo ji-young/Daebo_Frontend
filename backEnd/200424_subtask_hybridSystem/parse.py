@@ -8,8 +8,8 @@ import pymysql
 DATA_DIR = "./data"
 DATA_FILE = os.path.join(DATA_DIR, "recipes_original.json")
 DUMP_FILE = os.path.join(DATA_DIR, "dump.pkl")
-db = pymysql.connect(host='34.64.88.80', port=3306, user='user1',
-                     passwd='user1', db='bigdageeta', charset='utf8')
+db = pymysql.connect(host='34.64.88.80', port=3306, user='root',
+                     passwd='root', db='django_db', charset='utf8')
 #mysql 접근
 recipe_columns = {
    "id"
