@@ -60,11 +60,11 @@ export function recipeRate(name, recipe_name, rate){
 }
 
 export function getRecip() {
-  return   axios.get('http://34.64.88.80/~/recipe/getFive/').then(res=>res.data);
+  return   axios.get('http://34.64.88.80/recipe/getFive/').then(res=>res.data);
 }
 
 export function getRecip2(tags,jaryo) {
-  return   axios.post('http://34.64.88.80/~/recipe/algo/',{
+  return   axios.post('http://34.64.88.80/recipe/algo/',{
     headers: { // 요청 헤더
       'Content-type': 'application/json'
       },
@@ -75,7 +75,7 @@ export function getRecip2(tags,jaryo) {
 
 //recipe/regScore(recipe_number, score)
 export function registerScore(recipe_number, score){
-  return axios.post('http://34.64.88.80/~/recipe/regScore/',{
+  return axios.post('http://34.64.88.80/recipe/regScore/',{
     headers : {
       'Content-type' : 'application/json'
     },
@@ -85,7 +85,7 @@ export function registerScore(recipe_number, score){
 }
 
 export function getMap(food, area){
-  return axios.post('http://34.64.88.80/~/recipe/map/', {
+  return axios.post('http://34.64.88.80/recipe/map/', {
     headers : {
       'Content-type' : 'application/json'
     },
@@ -96,7 +96,7 @@ export function getMap(food, area){
 
 
 export function requestComparison(id1, id2){
-  return axios.post('http://34.64.88.80/~/recipe/compare/',{
+  return axios.post('http://34.64.88.80/recipe/compare/',{
     headers : {
       'Content-type' : 'application/json'
     },
