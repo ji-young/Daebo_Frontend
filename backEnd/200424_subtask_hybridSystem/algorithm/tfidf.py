@@ -4,7 +4,7 @@ import time
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 
-conn = pymysql.connect(host='52.79.57.86', port=3306, user='user1',
+conn = pymysql.connect(host='34.64.88.80', port=3306, user='user1',
                      passwd='user1', db='bigdageeta', charset='utf8')
 
 def contents_based_filtering(item_id, num,tag_data, ingredi):

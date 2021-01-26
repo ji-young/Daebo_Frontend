@@ -30,7 +30,7 @@ def load_dataframes():
     return pd.read_pickle(DUMP_FILE)
 
 def insert_data():
-    db = pymysql.connect(host='52.79.57.86', port=3306, user='user1', passwd='user1', db='bigdageeta', charset='utf8')
+    db = pymysql.connect(host='34.64.88.80', port=3306, user='user1', passwd='user1', db='bigdageeta', charset='utf8')
     cur = db.cursor()
 
     # user row exmaple
@@ -93,7 +93,7 @@ def insert_data():
 
 
 def fetch_data(data_path=DATA_FILE) :
-    db = pymysql.connect(host='52.79.57.86', port=3306, user='user1', passwd='user1', db='bigdageeta', charset='utf8')
+    db = pymysql.connect(host='34.64.88.80', port=3306, user='user1', passwd='user1', db='bigdageeta', charset='utf8')
     cur = db.cursor()
     sql = """select * from auth_user"""
 
