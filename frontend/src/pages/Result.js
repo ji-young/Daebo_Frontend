@@ -35,9 +35,9 @@ function Result(props){
   });
 
   
-  function getRecipList(tags, jaryo,type) {
+function getRecipList(tags, jaryo,type) {
     // setloaded(false)
-    console.log('씨발너냐')
+    console.log('hello')
     return new Promise(function(resolve){
       var res=  getRecip2(tags,jaryo)
       resolve(res)

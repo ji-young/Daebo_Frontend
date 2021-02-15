@@ -91,10 +91,10 @@ WSGI_APPLICATION = 'bigdageeta.wsgi.application'
 DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'django_db',
+            'NAME': 'daebo',
             'USER': 'root',
             'PASSWORD': 'root',
-            'HOST': '127.0.0.1',
+            'HOST': '34.64.241.246',
             'PORT': '3306',
             'OPTIONS': {
                 'init_command': 'SET sql_mode="STRICT_TRANS_TABLES"'
@@ -141,7 +141,8 @@ CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
     'http://localhost:8000',
     'http://34.64.88.80:8000',
-    'http://34.64.88.80'
+    'http://34.64.88.80',
+    'http://34.64.241.246'
 )
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
@@ -184,3 +185,5 @@ CORS_ALLOW_HEADERS = (
     'x-csrftoken',
     'x-requested-with',
 )
+CORS_ORIGIN_WHITELIST=
+['http://http://34.64.88.80/'] CORS_ALLOW_CREDENTIALS = True

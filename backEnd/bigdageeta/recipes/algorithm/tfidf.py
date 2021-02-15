@@ -12,8 +12,8 @@ from sklearn.metrics.pairwise import linear_kernel
 
 
 def contents_based_filtering(item_id, num, tag_data, ingredients):
-    conn = pymysql.connect(host='34.64.88.80', port=3306, user='root',
-                        passwd='root', db='django_db', charset='utf8')
+    conn = pymysql.connect(host='34.64.241.246', port=3306, user='root',
+                        passwd='root', db='daebo', charset='utf8')
     curs=conn.cursor()
     like = "ingredients like \"%"
     copy = "ingredients like \"%"
